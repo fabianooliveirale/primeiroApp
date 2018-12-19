@@ -19,6 +19,7 @@ class CaraDoisViewController: UIViewController {
         super.viewDidLoad()
         print(random)
         if random == 0 {
+            //teste
             let youtimage: UIImage = UIImage(named: "moeda_cara")!
             imageCara.image = youtimage
             
