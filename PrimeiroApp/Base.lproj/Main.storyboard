@@ -17,13 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-gc-1Hf">
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="leading" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpT-gc-1Hf">
                                 <rect key="frame" x="114" y="130" width="186" height="100"/>
+                                <color key="backgroundColor" red="0.057288140930000002" green="0.32689038209999999" blue="0.137411638" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="eH0-Ye-Mh2"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="moeda_cara.png"/>
-                                <state key="highlighted" image="moeda_coroa.png"/>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.0" green="0.58701020079999999" blue="0.13741085759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="buttonGeraNum:" destination="dil-JH-UY3" eventType="touchUpInside" id="5Q5-ah-iQP"/>
                                 </connections>
@@ -598,6 +600,5 @@
         <image name="car.jpg" width="400" height="262"/>
         <image name="logo.png" width="321" height="154"/>
         <image name="moeda_cara.png" width="305" height="304"/>
-        <image name="moeda_coroa.png" width="305" height="304"/>
     </resources>
 </document>
